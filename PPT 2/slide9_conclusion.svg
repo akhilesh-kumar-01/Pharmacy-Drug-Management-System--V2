@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Conclusion Slide for Pharmacy Drug Management System -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 72px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 48px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 32px; fill: #34495e; }
+    .conclusion-box { fill: white; stroke: #3498db; stroke-width: 3; }
+    .conclusion-title { font-family: Arial; font-size: 36px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .conclusion-text { font-family: Arial; font-size: 28px; fill: #34495e; }
+    .benefit { fill: #2ecc71; stroke: #27ae60; stroke-width: 2; }
+    .benefit-text { font-family: Arial; font-size: 24px; font-weight: bold; text-anchor: middle; fill: white; }
+    .future { fill: #9b59b6; stroke: #8e44ad; stroke-width: 2; }
+    .future-text { font-family: Arial; font-size: 24px; font-weight: bold; text-anchor: middle; fill: white; }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect class="background" x="120" y="220" width="1680" height="780" rx="30" ry="30" />
+  
+  <!-- Header -->
+  <text x="960" y="150" class="title">Conclusion</text>
+  <text x="960" y="220" class="subtitle">Pharmacy Drug Management System</text>
+  
+  <!-- Summary -->
+  <rect class="conclusion-box" x="360" y="280" width="1200" height="180" rx="15" ry="15" />
+  <text x="960" y="340" class="conclusion-title">Project Summary</text>
+  <text x="960" y="400" class="text" text-anchor="middle">The Pharmacy Drug Management System successfully addresses critical challenges</text>
+  <text x="960" y="450" class="text" text-anchor="middle">in pharmaceutical operations through an integrated web-based solution.</text>
+  
+  <!-- Key Benefits -->
+  <g transform="translate(360, 500)">
+    <rect class="conclusion-box" width="650" height="400" rx="15" ry="15" />
+    <text x="325" y="60" class="conclusion-title">Key Benefits</text>
+    
+    <!-- Benefit 1 -->
+    <circle class="benefit" cx="80" cy="120" r="25" />
+    <text x="80" y="130" class="benefit-text">1</text>
+    <text x="320" y="130" class="conclusion-text">Improved inventory accuracy</text>
+    
+    <!-- Benefit 2 -->
+    <circle class="benefit" cx="80" cy="190" r="25" />
+    <text x="80" y="200" class="benefit-text">2</text>
+    <text x="320" y="200" class="conclusion-text">Streamlined order processing</text>
+    
+    <!-- Benefit 3 -->
+    <circle class="benefit" cx="80" cy="260" r="25" />
+    <text x="80" y="270" class="benefit-text">3</text>
+    <text x="320" y="270" class="conclusion-text">Enhanced customer service</text>
+    
+    <!-- Benefit 4 -->
+    <circle class="benefit" cx="80" cy="330" r="25" />
+    <text x="80" y="340" class="benefit-text">4</text>
+    <text x="320" y="340" class="conclusion-text">Reduced operational costs</text>
+  </g>
+  
+  <!-- Future Work -->
+  <g transform="translate(1050, 500)">
+    <rect class="conclusion-box" width="650" height="400" rx="15" ry="15" />
+    <text x="325" y="60" class="conclusion-title">Future Enhancements</text>
+    
+    <!-- Future 1 -->
+    <circle class="future" cx="80" cy="120" r="25" />
+    <text x="80" y="130" class="future-text">A</text>
+    <text x="320" y="130" class="conclusion-text">Mobile application</text>
+    
+    <!-- Future 2 -->
+    <circle class="future" cx="80" cy="190" r="25" />
+    <text x="80" y="200" class="future-text">B</text>
+    <text x="320" y="200" class="conclusion-text">AI-powered analytics</text>
+    
+    <!-- Future 3 -->
+    <circle class="future" cx="80" cy="260" r="25" />
+    <text x="80" y="270" class="future-text">C</text>
+    <text x="320" y="270" class="conclusion-text">Integration with suppliers</text>
+    
+    <!-- Future 4 -->
+    <circle class="future" cx="80" cy="330" r="25" />
+    <text x="80" y="340" class="future-text">D</text>
+    <text x="320" y="340" class="conclusion-text">Prescription management</text>
+  </g>
+  
+  <!-- Final Statement -->
+  <rect x="360" y="940" width="1200" height="100" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="15" ry="15" />
+  <text x="960" y="990" class="text" text-anchor="middle" fill="white" font-weight="bold">The system provides a solid foundation for efficient</text>
+  <text x="960" y="1030" class="text" text-anchor="middle" fill="white" font-weight="bold">and modern pharmacy management operations</text>
+</svg>

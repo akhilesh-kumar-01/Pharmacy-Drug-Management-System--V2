@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Redesigned Feasibility Study Slide for Pharmacy Drug Management System -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 64px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 40px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 24px; fill: #34495e; }
+    .feasibility { fill: white; stroke: #3498db; stroke-width: 3; }
+    .feasibility-title { font-family: Arial; font-size: 36px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .feasibility-text { font-family: Arial; font-size: 24px; fill: #34495e; }
+    .positive { fill: #2ecc71; }
+    .negative { fill: #e74c3c; }
+    .neutral { fill: #f39c12; }
+    .icon-text { font-family: Arial; font-size: 18px; text-anchor: middle; fill: white; font-weight: bold; }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+    .conclusion { fill: #9b59b6; stroke: #8e44ad; stroke-width: 3; }
+    .conclusion-text { font-family: Arial; font-size: 32px; font-weight: bold; text-anchor: middle; fill: white; }
+    .legend-title { font-family: Arial; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+    .legend-text { font-family: Arial; font-size: 22px; fill: #34495e; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect class="background" x="100" y="200" width="1720" height="750" rx="30" ry="30" />
+  
+  <!-- Header -->
+  <text x="960" y="120" class="title">Feasibility Study</text>
+  <text x="960" y="180" class="subtitle">Pharmacy Drug Management System</text>
+  
+  <!-- Technical Feasibility -->
+  <g transform="translate(180, 250)">
+    <rect class="feasibility" width="480" height="450" rx="15" ry="15" />
+    <text x="240" y="60" class="feasibility-title">Technical Feasibility</text>
+    
+    <!-- Positive Points -->
+    <circle class="positive" cx="60" cy="120" r="18" />
+    <text x="60" y="126" class="icon-text">✅</text>
+    <text x="240" y="128" class="feasibility-text">Uses existing technologies</text>
+    
+    <circle class="positive" cx="60" cy="180" r="18" />
+    <text x="60" y="186" class="icon-text">✅</text>
+    <text x="240" y="188" class="feasibility-text">Java/JSP expertise available</text>
+    
+    <circle class="positive" cx="60" cy="240" r="18" />
+    <text x="60" y="246" class="icon-text">✅</text>
+    <text x="240" y="248" class="feasibility-text">MySQL database proven</text>
+    
+    <!-- Consideration Points -->
+    <circle class="neutral" cx="60" cy="300" r="18" />
+    <text x="60" y="306" class="icon-text">⚠️</text>
+    <text x="240" y="308" class="feasibility-text">Integration complexity</text>
+    
+    <circle class="neutral" cx="60" cy="360" r="18" />
+    <text x="60" y="366" class="icon-text">⚠️</text>
+    <text x="240" y="368" class="feasibility-text">Security implementation</text>
+  </g>
+  
+  <!-- Economic Feasibility -->
+  <g transform="translate(720, 250)">
+    <rect class="feasibility" width="480" height="450" rx="15" ry="15" />
+    <text x="240" y="60" class="feasibility-title">Economic Feasibility</text>
+    
+    <!-- Positive Points -->
+    <circle class="positive" cx="60" cy="120" r="18" />
+    <text x="60" y="126" class="icon-text">✅</text>
+    <text x="240" y="128" class="feasibility-text">Low development cost</text>
+    
+    <circle class="positive" cx="60" cy="180" r="18" />
+    <text x="60" y="186" class="icon-text">✅</text>
+    <text x="240" y="188" class="feasibility-text">ROI within 12 months</text>
+    
+    <circle class="positive" cx="60" cy="240" r="18" />
+    <text x="60" y="246" class="icon-text">✅</text>
+    <text x="240" y="248" class="feasibility-text">Reduced operational costs</text>
+    
+    <!-- Negative Points -->
+    <circle class="negative" cx="60" cy="300" r="18" />
+    <text x="60" y="306" class="icon-text">❌</text>
+    <text x="240" y="308" class="feasibility-text">Initial training expenses</text>
+    
+    <!-- Consideration Points -->
+    <circle class="neutral" cx="60" cy="360" r="18" />
+    <text x="60" y="366" class="icon-text">⚠️</text>
+    <text x="240" y="368" class="feasibility-text">Maintenance costs</text>
+  </g>
+  
+  <!-- Operational Feasibility -->
+  <g transform="translate(1260, 250)">
+    <rect class="feasibility" width="480" height="450" rx="15" ry="15" />
+    <text x="240" y="60" class="feasibility-title">Operational Feasibility</text>
+    
+    <!-- Positive Points -->
+    <circle class="positive" cx="60" cy="120" r="18" />
+    <text x="60" y="126" class="icon-text">✅</text>
+    <text x="240" y="128" class="feasibility-text">User-friendly interface</text>
+    
+    <circle class="positive" cx="60" cy="180" r="18" />
+    <text x="60" y="186" class="icon-text">✅</text>
+    <text x="240" y="188" class="feasibility-text">Streamlined workflows</text>
+    
+    <circle class="positive" cx="60" cy="240" r="18" />
+    <text x="60" y="246" class="icon-text">✅</text>
+    <text x="240" y="248" class="feasibility-text">Meets regulatory needs</text>
+    
+    <!-- Consideration Points -->
+    <circle class="neutral" cx="60" cy="300" r="18" />
+    <text x="60" y="306" class="icon-text">⚠️</text>
+    <text x="240" y="308" class="feasibility-text">Staff training required</text>
+    
+    <circle class="neutral" cx="60" cy="360" r="18" />
+    <text x="60" y="366" class="icon-text">⚠️</text>
+    <text x="240" y="368" class="feasibility-text">Change management</text>
+  </g>
+  
+  <!-- Conclusion -->
+  <rect class="conclusion" x="560" y="750" width="800" height="120" rx="15" ry="15" />
+  <text x="960" y="800" class="conclusion-text">Feasibility Assessment: HIGHLY VIABLE</text>
+  <text x="960" y="850" class="conclusion-text">Benefits significantly outweigh challenges</text>
+  
+  <!-- Legend -->
+  <g transform="translate(1400, 900)">
+    <text x="0" y="0" class="legend-title">Legend:</text>
+    <circle class="positive" cx="40" cy="30" r="15" />
+    <text x="40" y="36" class="icon-text">✅</text>
+    <text x="150" y="36" class="legend-text">Positive Factor</text>
+    
+    <circle class="negative" cx="40" cy="70" r="15" />
+    <text x="40" y="76" class="icon-text">❌</text>
+    <text x="150" y="76" class="legend-text">Negative Factor</text>
+    
+    <circle class="neutral" cx="40" y="110" r="15" />
+    <text x="40" y="116" class="icon-text">⚠️</text>
+    <text x="150" y="116" class="legend-text">Consideration</text>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction Slide for Pharmacy Drug Management System - Redesigned for 1920x1080 resolution -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 72px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 36px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 24px; fill: #34495e; text-anchor: middle; }
+    .feature { fill: #ecf0f1; stroke: #3498db; stroke-width: 2; }
+    .feature-text { font-family: Arial; font-size: 24px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .icon-circle { fill: #3498db; stroke: #2980b9; stroke-width: 1; }
+    .icon-text { font-family: Arial; font-size: 28px; font-weight: bold; text-anchor: middle; fill: white; }
+    .background { fill: url(#grad); opacity: 0.2; }
+    .footer-text { font-family: Arial; font-size: 24px; fill: #34495e; text-anchor: middle; line-height: 1.5; }
+  </style>
+  
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect class="background" width="1920" height="1080" rx="20" ry="20" />
+  
+  <!-- Header - Properly centered and aligned -->
+  <text x="960" y="180" class="title">Pharmacy Drug Management System</text>
+  
+  <!-- Decorative Elements - Properly positioned and not overlapping with text -->
+  <path d="M760,140 L860,140 L860,160 L760,160 Z" fill="#3498db" />
+  <path d="M1060,140 L1160,140 L1160,160 L1060,160 Z" fill="#3498db" />
+  
+  <!-- Subtitle - Properly aligned below title -->
+  <text x="960" y="250" class="subtitle">Streamlining Pharmaceutical Operations</text>
+  
+  <!-- Main Content - Centered and aligned -->
+  <g transform="translate(960, 400)">
+    <!-- Central Icon -->
+    <circle class="icon-circle" cx="0" cy="0" r="100" />
+    <text x="0" y="15" class="icon-text" font-size="70">Rx</text>
+    <text x="0" y="140" class="text">Comprehensive Solution for Modern Pharmacies</text>
+  </g>
+  
+  <!-- Features - Evenly spaced and consistently sized -->
+  <g transform="translate(480, 650)">
+    <rect class="feature" width="200" height="120" rx="10" ry="10" />
+    <text x="100" y="55" class="feature-text">Inventory</text>
+    <text x="100" y="85" class="feature-text">Management</text>
+    <circle class="icon-circle" cx="100" cy="-30" r="25" />
+    <text x="100" y="-20" class="icon-text">1</text>
+  </g>
+  
+  <g transform="translate(760, 650)">
+    <rect class="feature" width="200" height="120" rx="10" ry="10" />
+    <text x="100" y="55" class="feature-text">Order</text>
+    <text x="100" y="85" class="feature-text">Processing</text>
+    <circle class="icon-circle" cx="100" cy="-30" r="25" />
+    <text x="100" y="-20" class="icon-text">2</text>
+  </g>
+  
+  <g transform="translate(1040, 650)">
+    <rect class="feature" width="200" height="120" rx="10" ry="10" />
+    <text x="100" y="55" class="feature-text">Customer</text>
+    <text x="100" y="85" class="feature-text">Management</text>
+    <circle class="icon-circle" cx="100" cy="-30" r="25" />
+    <text x="100" y="-20" class="icon-text">3</text>
+  </g>
+  
+  <g transform="translate(1320, 650)">
+    <rect class="feature" width="200" height="120" rx="10" ry="10" />
+    <text x="100" y="55" class="feature-text">Vendor</text>
+    <text x="100" y="85" class="feature-text">Relations</text>
+    <circle class="icon-circle" cx="100" cy="-30" r="25" />
+    <text x="100" y="-20" class="icon-text">4</text>
+  </g>
+  
+  <!-- Footer - Improved readability with better line spacing -->
+  <g transform="translate(960, 900)">
+    <text x="0" y="0" class="footer-text">A web-based solution built with Java, JSP, and MySQL</text>
+    <text x="0" y="40" class="footer-text">Designed to optimize pharmacy operations and enhance customer service</text>
+  </g>
+  
+  <!-- Bottom Decorative Elements - Properly positioned -->
+  <path d="M860,1000 L960,1000 L960,1020 L860,1020 Z" fill="#3498db" />
+  <path d="M960,1000 L1060,1000 L1060,1020 L960,1020 Z" fill="#3498db" />
+</svg>

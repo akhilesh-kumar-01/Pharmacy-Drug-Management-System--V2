@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <!-- Literature Survey Slide for Pharmacy Drug Management System - Fixed Version -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 64px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 40px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 24px; fill: #34495e; }
+    .paper { fill: white; stroke: #3498db; stroke-width: 3; filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.2)); }
+    .paper-title { font-family: Arial; font-size: 28px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .paper-author { font-family: Arial; font-size: 20px; font-style: italic; text-anchor: middle; fill: #7f8c8d; }
+    .paper-text { font-family: Arial; font-size: 20px; fill: #34495e; }
+    .year { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+    .year-text { font-family: Arial; font-size: 24px; font-weight: bold; text-anchor: middle; fill: white; }
+    .arrow { stroke: #7f8c8d; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+    .key-findings-title { font-family: Arial; font-size: 32px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .footer-text { font-family: Arial; font-size: 28px; fill: #34495e; text-anchor: middle; }
+  </style>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" />
+    </marker>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:0.2" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="rgba(0,0,0,0.3)" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect width="1920" height="1080" fill="url(#grad)" />
+  <rect class="background" x="120" y="270" width="1680" height="720" rx="30" ry="30" />
+  
+  <!-- Header -->
+  <text x="960" y="180" class="title">Literature Survey</text>
+  <text x="960" y="260" class="subtitle">Evolution of Pharmacy Management Systems</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M760,140 L860,140 L860,160 L760,160 Z" fill="#3498db" />
+  <path d="M1060,140 L1160,140 L1160,160 L1060,160 Z" fill="#3498db" />
+  
+  <!-- Timeline -->
+  <line x1="240" y1="900" x2="1680" y2="900" stroke="#3498db" stroke-width="5" />
+  
+  <!-- Year Markers -->
+  <circle class="year" cx="360" cy="900" r="40" />
+  <text x="360" y="910" class="year-text">2000</text>
+  
+  <circle class="year" cx="720" cy="900" r="40" />
+  <text x="720" y="910" class="year-text">2010</text>
+  
+  <circle class="year" cx="1080" cy="900" r="40" />
+  <text x="1080" y="910" class="year-text">2015</text>
+  
+  <circle class="year" cx="1440" cy="900" r="40" />
+  <text x="1440" y="910" class="year-text">2020</text>
+  
+  <!-- Research Papers -->
+  <g transform="translate(360, 360)">
+    <rect class="paper" width="300" height="200" rx="15" ry="15" />
+    <text x="150" y="50" class="paper-title">Early PMS Systems</text>
+    <text x="150" y="85" class="paper-author">Johnson et al. (2002)</text>
+    <text x="40" y="125" class="paper-text">• Basic inventory tracking</text>
+    <text x="40" y="160" class="paper-text">• Limited customer records</text>
+    <text x="40" y="195" class="paper-text">• Standalone applications</text>
+    <line x1="150" y1="200" x2="150" y2="300" class="arrow" />
+  </g>
+  
+  <g transform="translate(720, 320)">
+    <rect class="paper" width="300" height="200" rx="15" ry="15" />
+    <text x="150" y="50" class="paper-title">Web-Based Solutions</text>
+    <text x="150" y="85" class="paper-author">Smith &amp; Garcia (2011)</text>
+    <text x="40" y="125" class="paper-text">• Cloud-based storage</text>
+    <text x="40" y="160" class="paper-text">• Multi-user access</text>
+    <text x="40" y="195" class="paper-text">• Integrated billing</text>
+    <line x1="150" y1="200" x2="150" y2="340" class="arrow" />
+  </g>
+  
+  <g transform="translate(1080, 280)">
+    <rect class="paper" width="300" height="200" rx="15" ry="15" />
+    <text x="150" y="50" class="paper-title">Advanced Analytics</text>
+    <text x="150" y="85" class="paper-author">Lee &amp; Wong (2016)</text>
+    <text x="40" y="125" class="paper-text">• Predictive inventory</text>
+    <text x="40" y="160" class="paper-text">• Customer behavior analysis</text>
+    <text x="40" y="195" class="paper-text">• Regulatory compliance</text>
+    <line x1="150" y1="200" x2="150" y2="380" class="arrow" />
+  </g>
+  
+  <g transform="translate(1440, 240)">
+    <rect class="paper" width="300" height="200" rx="15" ry="15" />
+    <text x="150" y="50" class="paper-title">AI-Enhanced Systems</text>
+    <text x="150" y="85" class="paper-author">Patel et al. (2021)</text>
+    <text x="40" y="125" class="paper-text">• ML-based demand forecasting</text>
+    <text x="40" y="160" class="paper-text">• Automated reordering</text>
+    <text x="40" y="195" class="paper-text">• Drug interaction alerts</text>
+    <line x1="150" y1="200" x2="150" y2="420" class="arrow" />
+  </g>
+  
+  <!-- Key Findings -->
+  <rect x="240" y="630" width="1440" height="180" fill="white" stroke="#3498db" stroke-width="3" rx="15" ry="15" filter="drop-shadow(3px 3px 5px rgba(0,0,0,0.2))" />
+  <text x="960" y="675" class="key-findings-title">Key Research Findings</text>
+  <text x="960" y="725" class="text" text-anchor="middle">• Trend toward integrated, web-based solutions with mobile access</text>
+  <text x="960" y="775" class="text" text-anchor="middle">• Growing importance of data security and regulatory compliance</text>
+  <text x="960" y="825" class="text" text-anchor="middle">• Shift from inventory-focused to customer-centric approaches</text>
+  
+  <!-- Footer -->
+  <text x="960" y="1000" class="footer-text">Our system builds upon these research insights to deliver a comprehensive solution</text>
+</svg>

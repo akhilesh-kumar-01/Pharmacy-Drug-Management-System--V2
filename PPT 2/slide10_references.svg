@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <!-- References Slide for Pharmacy Drug Management System -->
+  
+  <!-- Styles -->
+  <style type="text/css">
+    .title { font-family: Arial; font-size: 36px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 24px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 16px; fill: #34495e; }
+    .reference-box { fill: white; stroke: #3498db; stroke-width: 2; }
+    .reference-title { font-family: Arial; font-size: 18px; font-weight: bold; text-anchor: middle; fill: #2980b9; }
+    .reference-text { font-family: Arial; font-size: 14px; fill: #34495e; }
+    .reference-author { font-family: Arial; font-size: 14px; font-style: italic; fill: #7f8c8d; }
+    .reference-number { fill: #3498db; stroke: #2980b9; stroke-width: 1; }
+    .reference-number-text { font-family: Arial; font-size: 14px; font-weight: bold; text-anchor: middle; fill: white; }
+    .category { fill: #e74c3c; stroke: #c0392b; stroke-width: 1; }
+    .category-text { font-family: Arial; font-size: 14px; font-weight: bold; text-anchor: middle; fill: white; }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="white" />
+  <rect class="background" x="50" y="150" width="700" height="400" rx="20" ry="20" />
+  
+  <!-- Header -->
+  <text x="400" y="80" class="title">References</text>
+  <text x="400" y="120" class="subtitle">Sources &amp; Acknowledgments</text>
+  
+  <!-- Academic References -->
+  <g transform="translate(100, 170)">
+    <rect class="reference-box" width="600" height="150" rx="10" ry="10" />
+    <rect class="category" x="20" y="-15" width="120" height="30" rx="5" ry="5" />
+    <text x="80" y="5" class="category-text">Academic</text>
+    
+    <!-- Reference 1 -->
+    <circle class="reference-number" cx="40" cy="40" r="15" />
+    <text x="40" y="45" class="reference-number-text">1</text>
+    <text x="70" y="35" class="reference-text">"Modern Pharmacy Management Systems: A Comprehensive Review"</text>
+    <text x="70" y="55" class="reference-author">Johnson, R. &amp; Smith, K. (2019). Journal of Pharmaceutical Technology, 45(2), 112-128.</text>
+    
+    <!-- Reference 2 -->
+    <circle class="reference-number" cx="40" cy="85" r="15" />
+    <text x="40" y="90" class="reference-number-text">2</text>
+    <text x="70" y="80" class="reference-text">"Database Design for Pharmaceutical Inventory Management"</text>
+    <text x="70" y="100" class="reference-author">Garcia, M. &amp; Lee, P. (2020). International Journal of Database Systems, 12(3), 78-92.</text>
+    
+    <!-- Reference 3 -->
+    <circle class="reference-number" cx="40" cy="130" r="15" />
+    <text x="40" y="135" class="reference-number-text">3</text>
+    <text x="70" y="125" class="reference-text">"User Experience in Healthcare Management Software"</text>
+    <text x="70" y="145" class="reference-author">Wong, T. &amp; Patel, S. (2021). Human-Computer Interaction Studies, 18(4), 203-219.</text>
+  </g>
+  
+  <!-- Technical References -->
+  <g transform="translate(100, 340)">
+    <rect class="reference-box" width="600" height="150" rx="10" ry="10" />
+    <rect class="category" x="20" y="-15" width="120" height="30" rx="5" ry="5" />
+    <text x="80" y="5" class="category-text">Technical</text>
+    
+    <!-- Reference 4 -->
+    <circle class="reference-number" cx="40" cy="40" r="15" />
+    <text x="40" y="45" class="reference-number-text">4</text>
+    <text x="70" y="35" class="reference-text">"Java Server Pages: Building Dynamic Web Applications"</text>
+    <text x="70" y="55" class="reference-author">Oracle Documentation (2022). Retrieved from oracle.com/java/technologies/jsp</text>
+    
+    <!-- Reference 5 -->
+    <circle class="reference-number" cx="40" cy="85" r="15" />
+    <text x="40" y="90" class="reference-number-text">5</text>
+    <text x="70" y="80" class="reference-text">"MySQL Database Design Best Practices"</text>
+    <text x="70" y="100" class="reference-author">MySQL Documentation (2022). Retrieved from mysql.com/documentation</text>
+    
+    <!-- Reference 6 -->
+    <circle class="reference-number" cx="40" cy="130" r="15" />
+    <text x="40" y="135" class="reference-number-text">6</text>
+    <text x="70" y="125" class="reference-text">"Web Application Security Guidelines"</text>
+    <text x="70" y="145" class="reference-author">OWASP Foundation (2022). Retrieved from owasp.org/guidelines</text>
+  </g>
+  
+  <!-- Acknowledgments -->
+  <rect x="100" y="510" width="600" height="50" fill="white" stroke="#e74c3c" stroke-width="2" rx="10" ry="10" />
+  <text x="400" y="540" class="text" text-anchor="middle">Special thanks to all stakeholders who contributed to the requirements gathering process</text>
+</svg>

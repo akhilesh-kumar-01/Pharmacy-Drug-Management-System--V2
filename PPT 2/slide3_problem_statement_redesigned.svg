@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Problem Statement Slide for Pharmacy Drug Management System -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 64px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 42px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 28px; fill: #34495e; }
+    .problem { fill: #e74c3c; stroke: #c0392b; stroke-width: 3; }
+    .problem-text { font-family: Arial; font-size: 28px; font-weight: bold; text-anchor: middle; fill: white; }
+    .problem-desc { font-family: Arial; font-size: 22px; text-anchor: middle; fill: #34495e; }
+    .arrow { stroke: #7f8c8d; stroke-width: 3; stroke-dasharray: 8,8; fill: none; }
+    .central { fill: #3498db; stroke: #2980b9; stroke-width: 3; }
+    .central-text { font-family: Arial; font-size: 32px; font-weight: bold; text-anchor: middle; fill: white; }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+    .impact-box { fill: white; stroke: #e74c3c; stroke-width: 3; }
+    .impact-title { font-family: Arial; font-size: 28px; font-weight: bold; text-anchor: middle; fill: #34495e; }
+    .impact-text { font-family: Arial; font-size: 24px; text-anchor: middle; fill: #34495e; }
+    .footer { font-family: Arial; font-size: 28px; text-anchor: middle; fill: #34495e; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect class="background" x="160" y="220" width="1600" height="740" rx="30" ry="30" />
+  
+  <!-- Header -->
+  <text x="960" y="140" class="title">Problem Statement</text>
+  <text x="960" y="210" class="subtitle">Challenges in Pharmacy Management</text>
+  
+  <!-- Central Problem - Perfectly centered -->
+  <ellipse class="central" cx="960" cy="540" rx="220" ry="100" />
+  <text x="960" y="530" class="central-text">Inefficient Pharmacy</text>
+  <text x="960" y="570" class="central-text">Drug Management</text>
+  
+  <!-- Problem 1: Inventory Management (Top Left) -->
+  <g transform="translate(400, 300)">
+    <rect class="problem" width="240" height="100" rx="15" ry="15" />
+    <text x="120" y="60" class="problem-text">Inventory Issues</text>
+    <text x="120" y="130" class="problem-desc">Stock discrepancies</text>
+    <text x="120" y="160" class="problem-desc">Expired medications</text>
+  </g>
+  <!-- Arrow from Inventory Issues to Central -->
+  <path class="arrow" d="M640,350 Q800,445 760,540" />
+  
+  <!-- Problem 2: Order Processing (Bottom Left) -->
+  <g transform="translate(400, 680)">
+    <rect class="problem" width="240" height="100" rx="15" ry="15" />
+    <text x="120" y="60" class="problem-text">Order Processing</text>
+    <text x="120" y="130" class="problem-desc">Manual order entry</text>
+    <text x="120" y="160" class="problem-desc">Fulfillment delays</text>
+  </g>
+  <!-- Arrow from Order Processing to Central -->
+  <path class="arrow" d="M640,730 Q800,635 760,540" />
+  
+  <!-- Problem 3: Customer Management (Top Right) -->
+  <g transform="translate(1280, 300)">
+    <rect class="problem" width="240" height="100" rx="15" ry="15" />
+    <text x="120" y="60" class="problem-text">Customer Records</text>
+    <text x="120" y="130" class="problem-desc">Fragmented data</text>
+    <text x="120" y="160" class="problem-desc">Privacy concerns</text>
+  </g>
+  <!-- Arrow from Customer Records to Central -->
+  <path class="arrow" d="M1280,350 Q1120,445 1160,540" />
+  
+  <!-- Problem 4: Vendor Management (Bottom Right) -->
+  <g transform="translate(1280, 680)">
+    <rect class="problem" width="240" height="100" rx="15" ry="15" />
+    <text x="120" y="60" class="problem-text">Vendor Relations</text>
+    <text x="120" y="130" class="problem-desc">Inconsistent ordering</text>
+    <text x="120" y="160" class="problem-desc">Payment tracking</text>
+  </g>
+  <!-- Arrow from Vendor Relations to Central -->
+  <path class="arrow" d="M1280,730 Q1120,635 1160,540" />
+  
+  <!-- Impact Statement - Moved down to prevent overlap with problem descriptions -->
+  <rect class="impact-box" x="460" y="880" width="1000" height="120" rx="15" ry="15" />
+  <text x="960" y="920" class="impact-title">These challenges lead to:</text>
+  <text x="960" y="960" class="impact-text">Increased operational costs, medication errors, customer dissatisfaction,</text>
+  <text x="960" y="990" class="impact-text">regulatory compliance issues, and reduced business profitability</text>
+  
+  <!-- Footer -->
+  <text x="960" y="1040" class="footer">Our system addresses these critical problems with an integrated solution</text>
+</svg>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flowcharts/Diagrams Slide for Pharmacy Drug Management System -->
+  
+  <!-- Styles -->
+  <style>
+    .title { font-family: Arial; font-size: 60px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    .subtitle { font-family: Arial; font-size: 40px; font-weight: bold; text-anchor: middle; fill: #3498db; }
+    .text { font-family: Arial; font-size: 28px; fill: #34495e; }
+    .process { fill: #3498db; stroke: #2980b9; stroke-width: 3; }
+    .decision { fill: #f1c40f; stroke: #f39c12; stroke-width: 3; }
+    .terminator { fill: #e74c3c; stroke: #c0392b; stroke-width: 3; }
+    .data { fill: #2ecc71; stroke: #27ae60; stroke-width: 3; }
+    .flow-text { font-family: Arial; font-size: 22px; font-weight: bold; text-anchor: middle; fill: white; }
+    .arrow { stroke: #7f8c8d; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+    .arrow-text { font-family: Arial; font-size: 18px; fill: #7f8c8d; }
+    .background { fill: #ecf0f1; opacity: 0.5; }
+    .note-box { fill: white; stroke: #95a5a6; stroke-width: 2; }
+    .note-text { font-family: Arial; font-size: 18px; fill: #34495e; }
+  </style>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="white" />
+  <rect class="background" x="120" y="220" width="1680" height="780" rx="30" ry="30" />
+  
+  <!-- Header -->
+  <text x="960" y="140" class="title">System Flowcharts</text>
+  <text x="960" y="200" class="subtitle">Key Processes in Pharmacy Drug Management</text>
+  
+  <!-- Order Processing Flowchart (Left Side) -->
+  <text x="480" y="280" class="text" font-weight="bold">Order Processing Workflow</text>
+  
+  <!-- Start -->
+  <ellipse class="terminator" cx="480" cy="340" rx="80" ry="30" />
+  <text x="480" y="348" class="flow-text">Start</text>
+  
+  <!-- Customer Login -->
+  <rect class="process" x="400" y="400" width="160" height="60" />
+  <text x="480" y="438" class="flow-text">Customer Login</text>
+  
+  <!-- Browse Products -->
+  <rect class="process" x="400" y="490" width="160" height="60" />
+  <text x="480" y="528" class="flow-text">Browse Products</text>
+  
+  <!-- Select Product -->
+  <rect class="process" x="400" y="580" width="160" height="60" />
+  <text x="480" y="618" class="flow-text">Select Product</text>
+  
+  <!-- Check Availability -->
+  <polygon class="decision" points="480,670 550,720 480,770 410,720" />
+  <text x="480" y="728" class="flow-text">Available?</text>
+  
+  <!-- Place Order -->
+  <rect class="process" x="400" y="800" width="160" height="60" />
+  <text x="480" y="838" class="flow-text">Place Order</text>
+  
+  <!-- End -->
+  <ellipse class="terminator" cx="480" cy="900" rx="80" ry="30" />
+  <text x="480" y="908" class="flow-text">End</text>
+  
+  <!-- Arrows -->
+  <path class="arrow" d="M480,370 L480,400" />
+  <path class="arrow" d="M480,460 L480,490" />
+  <path class="arrow" d="M480,550 L480,580" />
+  <path class="arrow" d="M480,640 L480,670" />
+  <path class="arrow" d="M480,770 L480,800" />
+  <text x="495" y="785" class="arrow-text">Yes</text>
+  <path class="arrow" d="M480,860 L480,900" />
+  
+  <!-- Not Available Path -->
+  <path class="arrow" d="M410,720 L320,720 L320,528 L400,528" />
+  <text x="340" y="700" class="arrow-text">No</text>
+  
+  <!-- Inventory Management Flowchart (Right Side) -->
+  <text x="1440" y="280" class="text" font-weight="bold">Inventory Management Workflow</text>
+  
+  <!-- Start -->
+  <ellipse class="terminator" cx="1440" cy="340" rx="80" ry="30" />
+  <text x="1440" y="348" class="flow-text">Start</text>
+  
+  <!-- Seller Login -->
+  <rect class="process" x="1360" y="400" width="160" height="60" />
+  <text x="1440" y="438" class="flow-text">Seller Login</text>
+  
+  <!-- View Inventory -->
+  <rect class="process" x="1360" y="490" width="160" height="60" />
+  <text x="1440" y="528" class="flow-text">View Inventory</text>
+  
+  <!-- Check Stock -->
+  <polygon class="decision" points="1440,580 1510,630 1440,680 1370,630" />
+  <text x="1440" y="638" class="flow-text">Low Stock?</text>
+  
+  <!-- Reorder Approval -->
+  <polygon class="decision" points="1440,710 1510,760 1440,810 1370,760" />
+  <text x="1440" y="768" class="flow-text">Approve?</text>
+  
+  <!-- Add Inventory -->
+  <rect class="process" x="1360" y="840" width="160" height="60" />
+  <text x="1440" y="878" class="flow-text">Add Inventory</text>
+  
+  <!-- Update Database -->
+  <path d="M1360,930 L1520,930 L1490,970 L1330,970 Z" class="data" />
+  <text x="1440" y="958" class="flow-text">Update DB</text>
+  
+  <!-- End -->
+  <ellipse class="terminator" cx="1440" cy="1030" rx="80" ry="30" />
+  <text x="1440" y="1038" class="flow-text">End</text>
+  
+  <!-- Arrows -->
+  <path class="arrow" d="M1440,370 L1440,400" />
+  <path class="arrow" d="M1440,460 L1440,490" />
+  <path class="arrow" d="M1440,550 L1440,580" />
+  <path class="arrow" d="M1440,680 L1440,710" />
+  <text x="1455" y="695" class="arrow-text">Yes</text>
+  <path class="arrow" d="M1440,810 L1440,840" />
+  <text x="1455" y="825" class="arrow-text">Yes</text>
+  <path class="arrow" d="M1440,900 L1440,930" />
+  <path class="arrow" d="M1440,970 L1440,1030" />
+  
+  <!-- Skip Add Inventory (No Low Stock) -->
+  <path class="arrow" d="M1370,630 L1270,630 L1270,1000 L1440,1000" />
+  <text x="1290" y="620" class="arrow-text">No</text>
+  
+  <!-- Skip Add Inventory (No Approval) -->
+  <path class="arrow" d="M1370,760 L1200,760 L1200,1000 L1440,1000" />
+  <text x="1220" y="750" class="arrow-text">No</text>
+  
+  <!-- Generate Reorder Request -->
+  <rect class="process" x="1600" y="630" width="160" height="60" />
+  <text x="1680" y="668" class="flow-text">Generate Request</text>
+  <path class="arrow" d="M1510,630 L1600,630" />
+  <path class="arrow" d="M1680,690 L1680,760 L1510,760" />
+  
+  <!-- Connection Between Flowcharts -->
+  <path class="arrow" d="M560,838 L800,838 L800,878 L1360,878" stroke-dasharray="5,5" />
+  <text x="800" y="820" class="arrow-text">Triggers</text>
+  
+  <!-- Notification System -->
+  <rect class="process" x="960" y="580" width="160" height="60" />
+  <text x="1040" y="618" class="flow-text">Notify Seller</text>
+  <path class="arrow" d="M560,618 L960,618" stroke-dasharray="5,5" />
+  <path class="arrow" d="M1120,618 L1360,618" stroke-dasharray="5,5" />
+  <text x="1200" y="600" class="arrow-text">Alert</text>
+  
+  <!-- Legend -->
+  <g transform="translate(960, 340)">
+    <rect width="200" height="180" fill="white" stroke="#7f8c8d" stroke-width="2" rx="10" ry="10" />
+    <text x="100" y="30" class="text" text-anchor="middle" font-size="24">Legend</text>
+    
+    <rect class="process" x="20" y="50" width="40" height="20" />
+    <text x="100" y="65" class="text" font-size="20">Process</text>
+    
+    <polygon class="decision" points="40,90 60,105 40,120 20,105" />
+    <text x="100" y="110" class="text" font-size="20">Decision</text>
+    
+    <ellipse class="terminator" cx="40" cy="145" rx="20" ry="10" />
+    <text x="100" y="150" class="text" font-size="20">Start/End</text>
+  </g>
+  
+  <!-- Notes -->
+  <g transform="translate(960, 720)">
+    <rect class="note-box" width="300" height="200" rx="10" ry="10" />
+    <text x="20" y="30" class="note-text" font-weight="bold">Inventory Management Features:</text>
+    <text x="20" y="70" class="note-text">• Automatic stock level monitoring</text>
+    <text x="20" y="100" class="note-text">• Low stock alerts and notifications</text>
+    <text x="20" y="130" class="note-text">• Approval workflow for reordering</text>
+    <text x="20" y="160" class="note-text">• Database triggers for updates</text>
+    <text x="20" y="190" class="note-text">• Real-time inventory tracking</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="960" y="1050" class="text" text-anchor="middle">These workflows illustrate the core functionality of the system</text>
+</svg>
